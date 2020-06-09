@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'story_brain.dart';
 //TODO: Step 15 - Run the app and see if you can see the screen update with the first story. Delete this TODO if it looks as you expected.
 
 void main() => runApp(Destini());
@@ -24,7 +25,6 @@ class _StoryPageState extends State<StoryPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        //TODO: Step 1 - Add background.png to this Container as a background image.
         decoration: BoxDecoration(
           image: DecorationImage(
             image: AssetImage("images/background.png"),
